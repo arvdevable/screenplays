@@ -1,36 +1,36 @@
 @font-face {
     font-family: Geist;
-    src: url('/styles/Geist/Geist-Light.otf');
+    src: url('Geist/Geist-Light.otf');
     font-weight: 100;
 }
 
 @font-face {
     font-family: Geist;
-    src: url('/styles/Geist/Geist-Medium.otf');
+    src: url('Geist/Geist-Medium.otf');
     font-weight: 200;
 }
 
 @font-face {
     font-family: Geist;
-    src: url('/styles/Geist/Geist-Regular.otf');
+    src: url('Geist/Geist-Regular.otf');
     font-weight: 300;
 }
 
 @font-face {
     font-family: Geist;
-    src: url('/styles/Geist/Geist-Bold.otf');
+    src: url('Geist/Geist-Bold.otf');
     font-weight: 400;
 }
 
 @font-face {
     font-family: Geist;
-    src: url('/styles/Geist/Geist-Black.otf');
+    src: url('Geist/Geist-Black.otf');
     font-weight: 500;
 }
 
 @font-face {
     font-family: PDBoldItalic;
-    src: url('/styles/PlayfairDisplay/PlayfairDisplay-BoldItalic.ttf');
+    src: url('PlayfairDisplay/PlayfairDisplay-BoldItalic.ttf');
 }
 
 html body {
@@ -43,6 +43,11 @@ html {
     font-weight: 100;
     background-color: #181716;
     color: #F3F6F4;
+}
+
+p {
+    font-family: 'Geist';
+    font-weight: 100;
 }
 
 footer {
@@ -59,7 +64,7 @@ h1 {
     font-weight: 500;
     font-size: 10vw;
     margin: 0;
-    font-family: PDBoldItalic;
+    font-family: 'PDBoldItalic';
 }
 
 a {
