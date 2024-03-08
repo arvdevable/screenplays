@@ -1,0 +1,170 @@
+@font-face {
+    font-family: Geist;
+    src: url('Geist/Geist-Light.otf');
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: Geist;
+    src: url('Geist/Geist-Medium.otf');
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: Geist;
+    src: url('Geist/Geist-Regular.otf');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: Geist;
+    src: url('Geist/Geist-Bold.otf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Geist;
+    src: url('Geist/Geist-Black.otf');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: PDBoldItalic;
+    src: url('PlayfairDisplay/PlayfairDisplay-BoldItalic.ttf');
+}
+
+html body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Geist', sans-serif;
+    font-weight: 100;
+    background-color: #181716;
+    color: #F3F6F4;
+}
+
+footer {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    font-weight: 300;
+    font-size: 10px;
+    border-radius: 5px;
+
+    backdrop-filter: blur(5px);
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 80px;
+    margin: 0;
+    font-family: 'PDBoldItalic';
+}
+
+
+a {
+    color: #F3F6F4;
+}
+
+main {
+    max-width: 500px;
+    margin: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .blackiconcolor {color:rgb(255, 255, 255);}
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    text-decoration: underline;
+  }
+
+  .fas {
+    color: #eee;
+    transition: all .3s;
+  }
+
+  #favorite-count {
+    color: #eee;
+  }
+
+  .fas:hover {
+    color: rgb(117, 117, 117);
+  }
+
+  .checked {
+    color: rgb(216, 73, 73);
+  }
+
+  .list-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .list-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+  }
+  .list-item:last-child {
+    border-bottom: none;
+  }
+  .list-item .actions {
+    display: flex;
+    gap: 10px;
+  }
+  .list-item .actions button {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+
+  #implicense {
+    font-style: italic;
+    color: rgb(216, 73, 73);
+    font-weight: 400;
+  }
+
+       
+  pre {
+    background-color: #131314;
+    padding: 10px;
+    color: #e7e7e7;
+ }
+ 
+ code {
+    background-color: #131314;
+    padding: 1px;
+    color: #e7e7e7;
+ }
+
+ #ulul {
+    list-style:circle;
+ }
